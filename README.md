@@ -33,6 +33,7 @@ To run the application in development mode, use:
 
 To build and run the application using Docker, use:
 ```shell
+./mvnw clean package -Pnative
 docker-compose up --build
 ```
 
