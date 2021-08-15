@@ -40,3 +40,6 @@ To run an example board against a locally running version of the application, us
 ```shell
 ./bin/solve-board
 ```
+
+## Resources used
+Algorithmic inspiration taken from [this question on Stack Overflow](https://stackoverflow.com/questions/746082/how-to-find-list-of-possible-words-from-a-letter-matrix-boggle-solver).
