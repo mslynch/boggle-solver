@@ -1,0 +1,17 @@
+[package]
+name = "boggust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+axum = "0.3.2"
+serde = {version = "1.0.130", features = ["derive"] }
+
+tokio = { version = "1.13.0", features = ["macros", "io-util", "rt-multi-thread"] }
+tracing = "0.1.29"
+tracing-subscriber = "0.3.1"
+regex = "1.5.4"
+itertools = "0.10.1"
+sequence_trie = "0.3.6"
